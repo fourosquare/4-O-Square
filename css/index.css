@@ -1,0 +1,122 @@
+.logo {
+    display: block;
+    height: 20vh;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figures {
+    margin: auto;
+    text-align: center;
+    width: 50vw;
+    height: 15vh;
+}
+
+.figures img {
+    height: 15vh;
+    position: relative;
+}
+
+@keyframes moveFromLeft {
+    0% {
+        left: 0px;
+        opacity: 0%;
+    }
+    50% {
+        left: 0px;
+        opacity: 100%;
+    }
+    100% {
+        left: var(--end-pos);
+        opacity: 100%;
+    }
+}
+
+@keyframes roundAppears {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes moveFromRight {
+    0% {
+        right: 0px;
+        opacity: 0%;
+    }
+    50% {
+        right: 0px;
+        opacity: 100%;
+    }
+    100% {
+        right: var(--end-pos);
+        opacity: 100%;
+    }
+}
+
+.figures img:nth-child(1) {
+    opacity: 0%;
+    animation: moveFromLeft 3s forwards;
+    animation-delay: 2s;
+    --end-pos: 200px;
+    z-index: 1;
+}
+
+.figures img:nth-child(2) {
+    opacity: 0%;
+    animation: moveFromLeft 3s forwards;
+    animation-delay: 2s;
+    --end-pos: 100px;
+    z-index: 2;
+}
+
+.figures img:nth-child(3) {
+    opacity: 0%;
+    animation: roundAppears 3s forwards;
+    z-index: 3;
+}
+
+.figures img:nth-child(4) {
+    opacity: 0%;
+    animation: moveFromRight 3s forwards;
+    animation-delay: 2s;
+    --end-pos: 100px;
+    z-index: 2;
+}
+
+.figures img:nth-child(5) {
+    opacity: 0%;
+    animation: moveFromRight 3s forwards;
+    animation-delay: 2s;
+    --end-pos: 200px;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+li {
+    margin-top: 10px;
+}
+
+a {
+    font-size: 27px;
+    color: inherit;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+li a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 32px;
+}
