@@ -61,7 +61,7 @@
     opacity: 0%;
     animation: moveFromLeft 3s forwards;
     animation-delay: 2s;
-    --end-pos: 200px;
+    --end-pos: 250px;
     z-index: 1;
 }
 
@@ -69,7 +69,7 @@
     opacity: 0%;
     animation: moveFromLeft 3s forwards;
     animation-delay: 2s;
-    --end-pos: 100px;
+    --end-pos: 150px;
     z-index: 2;
 }
 
@@ -83,7 +83,7 @@
     opacity: 0%;
     animation: moveFromRight 3s forwards;
     animation-delay: 2s;
-    --end-pos: 100px;
+    --end-pos: 150px;
     z-index: 2;
 }
 
@@ -91,7 +91,7 @@
     opacity: 0%;
     animation: moveFromRight 3s forwards;
     animation-delay: 2s;
-    --end-pos: 200px;
+    --end-pos: 250px;
     z-index: 1;
 }
 
