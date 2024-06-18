@@ -61,7 +61,7 @@
     opacity: 0%;
     animation: moveFromLeft 3s forwards;
     animation-delay: 2s;
-    --end-pos: 250px;
+    --end-pos: 200px;
     z-index: 1;
 }
 
@@ -69,7 +69,7 @@
     opacity: 0%;
     animation: moveFromLeft 3s forwards;
     animation-delay: 2s;
-    --end-pos: 150px;
+    --end-pos: 100px;
     z-index: 2;
 }
 
@@ -83,7 +83,7 @@
     opacity: 0%;
     animation: moveFromRight 3s forwards;
     animation-delay: 2s;
-    --end-pos: 150px;
+    --end-pos: 100px;
     z-index: 2;
 }
 
@@ -91,7 +91,7 @@
     opacity: 0%;
     animation: moveFromRight 3s forwards;
     animation-delay: 2s;
-    --end-pos: 250px;
+    --end-pos: 200px;
     z-index: 1;
 }
 
@@ -110,7 +110,7 @@ li {
 a {
     font-size: 27px;
     color: inherit;
-    transition: transform 0.3s ease, font-size 0.3s ease;
+    transition: font-size 0.3s ease;
 }
 
 li a:link {
@@ -119,4 +119,5 @@ li a:link {
 
 a:hover {
     font-size: 32px;
+    cursor: url("../resources/cursor_hover.svg") 8 0, auto !important;
 }

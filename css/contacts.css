@@ -1,0 +1,15 @@
+#content {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map {
+    height: 40vh;
+    border-radius: 15px;
+}
+
+a {
+    display: block;
+    margin-top: 25px;
+}

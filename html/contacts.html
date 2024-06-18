@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4 O'Square</title>
+    <link rel="icon" href="../resources/favicon.svg">
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="icon" href="../resources/favicon.ico">
+    <link rel="stylesheet" href="../css/contacts.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src = "../js/contacts.js"></script>
 </head>
-<body>
+<body onload="load_map()">
     <h1>CONTACTS</h1>
+    <div id="content">
+        <div id="map"></div>
+        <a>
+            Morada<br>
+            Av. Duque de Loulé<br>
+            nº22 - 3ºAndar<br>
+            1050-007 Lisboa<br>
+            <br>
+            +351 936 223 477<br>
+            <br>
+            foUrosqUare4@gmail.com<br>
+        </a>
+    </div>
 </body>
 </html>
