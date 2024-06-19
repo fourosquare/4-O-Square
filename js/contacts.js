@@ -1,9 +1,9 @@
 function load_map() {
     var location = [38.72968, -9.14605]
-    var map = L.map('map').setView(location, 17);
+    var map = L.map('map', { zoomControl: false, attributionControl: false }).setView(location, 17);
 
     var pin = L.icon({
-        iconUrl: "../resources/map_pin.png",
+        iconUrl: "../resources/contacts/map_pin.png",
         iconSize:     [30, 52],
         iconAnchor:   [15, 50],
     });

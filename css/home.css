@@ -9,7 +9,7 @@
 .figures {
     margin: auto;
     text-align: center;
-    width: 50vw;
+    min-width: 800px;
     height: 15vh;
 }
 
@@ -59,38 +59,39 @@
 
 .figures img:nth-child(1) {
     opacity: 0%;
-    animation: moveFromLeft 3s forwards;
-    animation-delay: 2s;
+    animation: moveFromLeft 2s forwards;
+    animation-delay: 1s;
     --end-pos: 200px;
     z-index: 1;
 }
 
 .figures img:nth-child(2) {
     opacity: 0%;
-    animation: moveFromLeft 3s forwards;
-    animation-delay: 2s;
+    animation: moveFromLeft 2s forwards;
+    animation-delay: 1s;
     --end-pos: 100px;
     z-index: 2;
 }
 
 .figures img:nth-child(3) {
     opacity: 0%;
-    animation: roundAppears 3s forwards;
+    animation: roundAppears 2s forwards;
+    animation-delay: 0.5s;
     z-index: 3;
 }
 
 .figures img:nth-child(4) {
     opacity: 0%;
-    animation: moveFromRight 3s forwards;
-    animation-delay: 2s;
+    animation: moveFromRight 2s forwards;
+    animation-delay: 1s;
     --end-pos: 100px;
     z-index: 2;
 }
 
 .figures img:nth-child(5) {
     opacity: 0%;
-    animation: moveFromRight 3s forwards;
-    animation-delay: 2s;
+    animation: moveFromRight 2s forwards;
+    animation-delay: 1s;
     --end-pos: 200px;
     z-index: 1;
 }
@@ -119,5 +120,5 @@ li a:link {
 
 a:hover {
     font-size: 32px;
-    cursor: url("../resources/cursor_hover.svg") 8 0, auto !important;
+    cursor: url("../resources/shared/cursor_hover.svg") 8 0, auto !important;
 }
