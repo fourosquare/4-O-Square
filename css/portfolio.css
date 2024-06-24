@@ -31,5 +31,10 @@ video {
 }
 
 a img {
+    transition: width 0.3s ease;
     cursor: url("../resources/shared/cursor_hover.svg") 8 0, auto !important;
+}
+
+a img:hover {
+    width: 95%;
 }
